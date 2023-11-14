@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="navbar-brand" href="#">KAR<i class="bi bi-droplet" id="bi-droplet"></i><span class="text-danger">SU</span></a>
+
+                <button class="navbar-toggler text-danger" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark border-primary "></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-center mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active text-emphasis-primary" aria-current="page" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-emphasis-primary" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-emphasis-primary" href="#">Servislerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-emphasis-primary" href="#">Kaynaklarımız</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-emphasis-primary" href="#">Takım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-emphasis-primary" href="#">İletişim</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </nav>
+    </div>
+
+
+    <section class="home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/mainsu4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block ">
+                        <h5>Camda Sağlık Var</h5>
+                        <p>Sadeliği ve doğallığı yansıtan cam, su tüketimini daha sağlıklı kılıyor. </p>
+                        <p><a href="" class="btn btn-warning">Daha Fazla</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/mainsu3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h5>Karsu Cam Şişeleri Özel</h5>
+                        <p>Karsu, sterilize edilen ve geri dönüştürülebilen cam şişelerle sağlığınızı koruyor.</p>
+                        <p><a href="" class="btn btn-warning">Daha Fazla</a></p>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/mainsu2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h5>Cam Kadar Berrak ve Temiz</h5>
+                        <p>Temiz ve berrak suyu kaynağından alındığı gibi muhafaz eden cam şişelerimiz çocuklarınızın da gelişimini koruyor.</p>
+                        <p><a href="" class="btn btn-warning">Daha Fazla</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-12">
+                    <div class="about-img">
+                        <img src="/images/su1.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12">
+                    <div class="about-text mt-5">
+                        <h2>Cam Sağlıktır</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit ullam dolorum minima
+                            doloribus
+                            itaque nihil eos officia voluptatem officiis, ab fugiat quos nisi libero, qui quo. Sed amet
+                            rem
+                            cupiditate.</p>
+                        <a href="" class="btn btn-warning">Daha Fazla</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h2>Servislerimiz</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus temporibus doloremque quae
+                            quia rem reprehenderit vero officia ipsa dignissimos quidem?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="card bg-dark text-white text-center p-2 px-5 mb-3">
+                        <i class="fa-solid fa-glass-water fs-1 mb-4 mt-2 "></i>
+                        <h3 class="card-title">En Kaliteli Su</h3>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sequi cumque iure
+                            eius expedita vel quasi ipsum delectus est, porro provident deserunt quidem voluptatum
+                            laudantium illum quos quaerat alias corrupti.</p>
+                        <button class="btn btn-warning">
+                            Daha Fazla
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card bg-dark text-white text-center p-2 px-5 mb-3">
+                        <i class="fa-solid fa-glass-water fs-1 mb-4 mt-2 "></i>
+                        <h3 class="card-title">Özel Cam Şişelerle</h3>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sequi cumque iure
+                            eius expedita vel quasi ipsum delectus est, porro provident deserunt quidem voluptatum
+                            laudantium illum quos quaerat alias corrupti.</p>
+                        <button class="btn btn-warning">
+                            Daha Fazla
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card bg-dark text-white text-center p-2 px-5 mb-3">
+                        <i class="fa-solid fa-glass-water fs-1 mb-4 mt-2 "></i>
+                        <h3 class="card-title">En Doğal Su</h3>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sequi cumque iure
+                            eius expedita vel quasi ipsum delectus est, porro provident deserunt quidem voluptatum
+                            laudantium illum quos quaerat alias corrupti.</p>
+                        <button class="btn btn-warning">
+                            Daha Fazla
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolyo">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-center mt-5">
+                    <h2>Kaynaklarımız</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aliquid?</p>
+                </div>
+            </div>
+            <div class="row gap-2 d-flex flex-lg-nowrap mb-3 ">
+
+                <div class="card bg-white text-center col-lg-4 mb-2 col-md-12 me-2 p-2 flex-fill">
+                    <div class="card-body">
+                        <div data-aos="flip-left" class="mb-4">
+                            <img src="images/su10.png" alt="" class="img-fluid rounded-2">
+                        </div>
+                        <h3>Kaynaktan Kapınıza</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur repellendus
+                            obcaecati error inventore nostrum vitae molestias, necessitatibus iusto omnis
+                            consectetur, ab eveniet sapiente consequuntur. Fugit harum labore inventore nulla.</p>
+                        <button class="btn btn-warning">Keşfet</button>
+                    </div>
+                </div>
+
+
+                <div class="card bg-white text-center col-lg-4 mb-2 col-md-12 me-2 p-2 flex-fill">
+                    <div class="card-body">
+                        <div data-aos="flip-left" class="mb-4">
+                            <img src="images/su8.webp" alt="" class="img-fluid rounded-2">
+                        </div>
+                        <h3>Suyun En Doğal Hali</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur repellendus
+                            obcaecati error inventore nostrum vitae molestias, necessitatibus iusto omnis
+                            consectetur, ab eveniet sapiente consequuntur. Fugit harum labore inventore nulla.</p>
+                        <button class="btn btn-warning">Keşfet</button>
+                    </div>
+                </div>
+
+
+                <div class="card bg-white text-center col-lg-4 mb-2 col-md-12 me-2 p-2 flex-fill">
+                    <div class="card-body">
+                        <div data-aos="flip-left" class="mb-4">
+                            <img src="images/su2.png" alt="" class="img-fluid rounded-2">
+                        </div>
+                        <div>
+                            <h3>Yüksek 'ph' Değeri</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur repellendus
+                                obcaecati error inventore nostrum vitae molestias, necessitatibus iusto omnis
+                                consectetur, ab eveniet sapiente consequuntur. Fugit harum labore inventore nulla.</p>
+                            <button class="btn btn-warning">Keşfet</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <h2 class="text-center mb-3">Takımımız</h2>
+        <p class="text-center mb-3">Suyumuzun kalitesi profesyonel çalışma arkadaşlarımız tarafından test ediliyor.</p>
+        <div class="container">
+            <div class="row d-flex flex-lg-nowrap gap-2 mb-3">
+                <div class=" card col-lg-3 col-md-6 text center">
+                    <div class="card-body text-center">
+                        <img src="images/person1.jpg" width="150px" height="150px" class="img-fluid rounded-circle  "
+                            alt="">
+                        <h2 class="py-2">
+                            Begüm ÖZEL
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis est, iste eius repellendus
+                            magni rem necessitatibus itaque ea obcaecati explicabo!</p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-threads"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </p>
+                    </div>
+                    <h2>
+
+                    </h2>
+                </div>
+                <div class=" card col-lg-3 col-md-6 text center">
+                    <div class="card-body text-center">
+                        <img src="images/person2.jpg " width="150px" height="150px" class="img-fluid rounded-circle"
+                            alt="">
+                        <h2 class="py-2">
+                            Suzan ÖZDEMİR
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis est, iste eius repellendus
+                            magni rem necessitatibus itaque ea obcaecati explicabo!</p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-threads"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </p>
+                    </div>
+                    <h2>
+
+                    </h2>
+                </div>
+                <div class=" card col-lg-3 col-md-6 text center">
+                    <div class="card-body text-center">
+                        <img src="images/person3.avif " width="150px" height="150px" class="img-fluid rounded-circle"
+                            alt="">
+                        <h2 class="py-2">
+                            Mehtap Sivaslı
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis est, iste eius repellendus
+                            magni rem necessitatibus itaque ea obcaecati explicabo!</p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-threads"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </p>
+                    </div>
+                    <h2>
+
+                    </h2>
+                </div>
+                <div class=" card col-lg-3 col-md-6 text center">
+                    <div class="card-body text-center">
+                        <img src="images/person4.webp " width="150px" height="150px" class="img-fluid rounded-circle "
+                            alt="">
+                        <h2 class="py-2">
+                            Berna ÇINAR
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis est, iste eius repellendus
+                            magni rem necessitatibus itaque ea obcaecati explicabo!</p>
+                        <p>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-threads"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </p>
+                    </div>
+                    <h2>
+
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-md-12">
+                    <h2>Bizimle İletişime Geçin</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia, quibusdam voluptatem quod
+                        facere nam.</p>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <form action="" class="col-md-12 mb-2">
+                    <input type="text" class="form-control mb-2" placeholder="İsim-Soyisim...">
+                    <input type="email" class="form-control mb-2" placeholder="Email...">
+                    <textarea class="form-control mb-2" placeholder="Mesajınız..."></textarea>
+                    <button class="btn btn-warning btn-lg w-100">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Biz Kimiz</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Anasayfa</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımızda</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Servislerimiz</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">SSS</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Referanslarımız</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Biz Kimiz</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Anasayfa</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımızda</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Servislerimiz</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">SSS</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Referanslarımız</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Müşteri Danışmanımızla İrtibata Geçiniz</h5>
+                        <p>Hizmet kalitemiz için lütfen görüşlerinizi paylaşın.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Gönder</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 Karsu Limited | &copy; Tüm Hakları Saklıdır.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
